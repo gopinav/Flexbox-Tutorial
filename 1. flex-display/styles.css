@@ -2,7 +2,8 @@ body {
     margin: 0;
 }
 .container {
-    border: 6px solid black
+    border: 6px solid black;
+    display: flex;
 }
 .flex-item {
     color: white;
