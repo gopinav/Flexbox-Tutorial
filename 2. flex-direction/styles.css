@@ -2,7 +2,10 @@ body {
     margin: 0;
 }
 .container {
-    border: 6px solid black
+    border: 6px solid black;
+    display: flex;
+    flex-direction: row; 
+    /* flex-direction: row | row-reverse | column | column-reverse  */
 }
 .flex-item {
     color: white;
