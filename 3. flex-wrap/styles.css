@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: row;
     /* flex-direction: row | row-reverse | column | column-reverse  */
+    flex-wrap: nowrap;
+    /* flex-wrap: nowrap | wrap | wrap-reverse */
 }
 .flex-item {
     color: white;
