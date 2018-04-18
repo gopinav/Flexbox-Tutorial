@@ -9,6 +9,7 @@ body {
     /* flex-direction: row | row-reverse | column | column-reverse  */
     /* flex-wrap: wrap; */
     /* flex-wrap: nowrap | wrap | wrap-reverse */
+    flex-flow: row nowrap
 }
 .flex-item {
     color: white;
