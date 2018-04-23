@@ -13,6 +13,7 @@ body {
 }
 .item-1 {
     background-color: #B4BF35;
+    flex-basis: 200px;
 }
 .item-2 {
     background-color: #B95F21;
