@@ -16,6 +16,10 @@ body {
 }
 .item-2 {
     background-color: #B95F21;
+    /* flex-grow: 2;
+    flex-shrink: 5;
+    flex-basis: 200px; */
+    flex: 1 5 200px;
 }
 .item-3 {
     background-color: #1C4C56;
