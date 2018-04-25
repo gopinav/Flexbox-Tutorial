@@ -4,6 +4,8 @@ body {
 .container {
     border: 6px solid black;
     display: flex;
+    height: 500px;
+    align-items: flex-end;
 }
 .flex-item {
     color: white;
@@ -13,15 +15,22 @@ body {
 }
 .item-1 {
     background-color: #B4BF35;
+    align-self: flex-start;
+    /* align-self: flex-start | flex-end | center | stretch | auto     */
 }
 .item-2 {
     background-color: #B95F21;
+    align-self: flex-end;  
 }
 .item-3 {
     background-color: #1C4C56;
+    align-self: center;    
 }
 .item-4 {
     background-color: #CfB276;
+    padding-top: 100px;
+    padding-bottom: 100px;    
+    align-self: stretch;
 }
 .item-5 {
     background-color: #6B0803;
