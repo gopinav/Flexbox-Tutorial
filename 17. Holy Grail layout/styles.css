@@ -5,10 +5,10 @@
 body {
     font-size: 24px;
     color: white;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-header {
@@ -24,7 +24,7 @@ body {
 
 .flex-nav {
     background-color: #B95F21;
-    flex: 1;
+    flex: 1 1 5rem;
     padding-top: 3rem;        
 }
 
@@ -36,7 +36,7 @@ body {
 
 .flex-aside {
     background-color: #B95F21; 
-    flex: 1;
+    flex: 1 1 5rem;
     padding-top: 3rem;          
 }
 
