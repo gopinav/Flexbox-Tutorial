@@ -28,13 +28,7 @@
     flex: 1;
 }
 
-.card footer {
+.card .footer {
     padding: 5px;
     background-color: #f1f1f1;
-}
-
-.flex-container {
-    display: flex;    
-    justify-content: space-around;
-    font-size: 1.5rem;
 }
